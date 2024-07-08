@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T13:17:23.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.6.4" etag="pwgUTec5b-7oqAqSR30f" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T13:24:01.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="CXIBMk8VICcmj-CEmiRp" version="24.6.4" type="github">
   <diagram name="Page-1" id="MR1rvrNZ7wT5ZMYKsehP">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YL_OZ0KnMHWB97DW-D49-1" target="YL_OZ0KnMHWB97DW-D49-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-1" value="AIGC模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YL_OZ0KnMHWB97DW-D49-2" target="YL_OZ0KnMHWB97DW-D49-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-2" value="AIGC内容&lt;br&gt;（音视图文）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="536.25" width="90" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YL_OZ0KnMHWB97DW-D49-4" target="YL_OZ0KnMHWB97DW-D49-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-4" value="提示词Prompt" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="542.5" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="YL_OZ0KnMHWB97DW-D49-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="565" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-6" value="水印嵌入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YL_OZ0KnMHWB97DW-D49-8" target="YL_OZ0KnMHWB97DW-D49-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-8" value="AIGC含水印内容&lt;br&gt;（音视图文）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="536.25" width="100" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YL_OZ0KnMHWB97DW-D49-10" target="YL_OZ0KnMHWB97DW-D49-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-10" value="水印提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YL_OZ0KnMHWB97DW-D49-12" value="水印信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="542.5" width="60" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
