@@ -788,6 +788,89 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-201" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-202" target="vIj0ayznzQ2Hyw27erG9-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-202" value="图片" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1466.25" y="1970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-235" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-203" target="vIj0ayznzQ2Hyw27erG9-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-236" value="RGB图片+&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;参数+错误码&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-235">
+          <mxGeometry x="-0.2267" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-203" value="图片解码插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1466.25" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-205" target="vIj0ayznzQ2Hyw27erG9-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-205" value="错误码处理插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1466.25" y="2500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-206" value="推理结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1466.25" y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-238" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-210" target="vIj0ayznzQ2Hyw27erG9-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-239" value="RGB图片+&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;参数+错误码&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-238">
+          <mxGeometry x="-0.0333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-210" value="图片去噪插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1466.25" y="2190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-246" value="编码后图片+&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;参数+错误码&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-234" target="vIj0ayznzQ2Hyw27erG9-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-234" value="图片编码插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1466.25" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-244" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-237" target="vIj0ayznzQ2Hyw27erG9-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-245" value="RGB图片+&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;参数+错误码&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-244">
+          <mxGeometry x="0.1722" y="7" relative="1" as="geometry">
+            <mxPoint x="-7" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-237" value="图片锐化插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1466.25" y="2300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-248" target="vIj0ayznzQ2Hyw27erG9-251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-265" value="文本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-247">
+          <mxGeometry x="0.2733" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-248" value="文本" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="2280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-251" value="文本分类插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-252" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-253" target="vIj0ayznzQ2Hyw27erG9-254">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-253" value="错误码处理插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="2500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-254" value="推理结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-258" value="分类结果+&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;错误码&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="vIj0ayznzQ2Hyw27erG9-253">
+          <mxGeometry x="-0.0125" relative="1" as="geometry">
+            <mxPoint x="1799.9999999999995" y="2459.9999999999995" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
