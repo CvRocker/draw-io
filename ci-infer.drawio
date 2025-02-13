@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram id="yvUyb9_Yjom-hSUSaHzK" name="Page-1">
-    <mxGraphModel dx="1536" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -599,6 +599,194 @@
         </mxCell>
         <mxCell id="vIj0ayznzQ2Hyw27erG9-131" value="AI模型" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontStyle=1;fontSize=11;container=0;" vertex="1" parent="vIj0ayznzQ2Hyw27erG9-160">
           <mxGeometry x="80.25" y="4" width="60" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-162" target="vIj0ayznzQ2Hyw27erG9-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-162" value="图片" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-163" value="图片解码插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-199" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-165" target="vIj0ayznzQ2Hyw27erG9-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-165" value="错误码处理插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-166" value="推理结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="970" y="2660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-167" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-163" target="vIj0ayznzQ2Hyw27erG9-168">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="2480" as="sourcePoint" />
+            <mxPoint x="1250" y="2430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="2180" />
+              <mxPoint x="930" y="2200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-168" value="人体检测插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="870" y="2233" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-169" value="图片" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="2170" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-170" value="厨师服识别插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="783.75" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-171" value="吸烟识别插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-172" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-168" target="vIj0ayznzQ2Hyw27erG9-170">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="926.25" y="2298.5" as="sourcePoint" />
+            <mxPoint x="856.25" y="2381.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="856.25" y="2348.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-174" value="人体位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-172">
+          <mxGeometry x="-0.0622" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-173" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-168" target="vIj0ayznzQ2Hyw27erG9-171">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="2303" as="sourcePoint" />
+            <mxPoint x="854" y="2380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="2310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-175" value="人体位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-173">
+          <mxGeometry x="-0.0013" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-176" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-170" target="vIj0ayznzQ2Hyw27erG9-165">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="879.5" y="2450" as="sourcePoint" />
+            <mxPoint x="793.5" y="2527" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="805.75" y="2505.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-177" value="厨师服+人体位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-176">
+          <mxGeometry x="-0.0622" relative="1" as="geometry">
+            <mxPoint x="-3" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-178" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-171" target="vIj0ayznzQ2Hyw27erG9-165">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="854" y="2440" as="sourcePoint" />
+            <mxPoint x="1020" y="2600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="2500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-179" value="吸烟结果+人体位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-178">
+          <mxGeometry x="-0.0622" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-180" value="人体检测插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="2230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-182" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-163">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="2160" as="sourcePoint" />
+            <mxPoint x="1210" y="2230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="2170" />
+              <mxPoint x="1130" y="2160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-183" value="图片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-182">
+          <mxGeometry x="0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-184" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vIj0ayznzQ2Hyw27erG9-186">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="2290" as="sourcePoint" />
+            <mxPoint x="1330" y="2367" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-185" value="人脸位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-184">
+          <mxGeometry x="-0.0013" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-186" value="口罩识别插件插件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-187" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-186" target="vIj0ayznzQ2Hyw27erG9-165">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="2440" as="sourcePoint" />
+            <mxPoint x="1010" y="2840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="2550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-188" value="口罩结果+人脸位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-187">
+          <mxGeometry x="-0.0622" relative="1" as="geometry">
+            <mxPoint x="13" y="-41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-189" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-163" target="vIj0ayznzQ2Hyw27erG9-170">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="2150" as="sourcePoint" />
+            <mxPoint x="940" y="2243" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="890" y="2180" />
+              <mxPoint x="820" y="2220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-190" value="图片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-189">
+          <mxGeometry x="-0.2257" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-192" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-163">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="972" y="2159" as="sourcePoint" />
+            <mxPoint x="1050" y="2370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="2190" />
+              <mxPoint x="1040" y="2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-193" value="图片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-192">
+          <mxGeometry x="-0.2257" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-195" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vIj0ayznzQ2Hyw27erG9-163">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="2160" as="sourcePoint" />
+            <mxPoint x="1210" y="2370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="2180" />
+              <mxPoint x="1070" y="2220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIj0ayznzQ2Hyw27erG9-196" value="图片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vIj0ayznzQ2Hyw27erG9-195">
+          <mxGeometry x="0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
